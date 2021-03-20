@@ -1,0 +1,632 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	/*font-family: 'Poppins', sans-serif;*/
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	font-family: 'Rokkitt', serif;
+}
+h1{
+	color: #314862!important;
+}
+.navbar-brand{
+	font-size: 25px!important;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+.navbar-brand span{
+	color:  #2289ff;
+	font-size: 35px;
+	padding-right: 10px;
+	font-weight: 800;
+} 
+.nav-link{
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #000!important;
+	transition: 0.3s ease;
+	margin-right: 35px!important;
+}
+.nav-link:hover{
+	color: #2289ff!important;
+	cursor: pointer;
+	
+}
+.btn_theme1{
+	padding: 8px 20px;
+	background: #2289ff;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 50px 0 50px 50px;
+	transition: 0.3s ease-in-out;
+}
+.btn_theme1:hover{
+	text-decoration: none;
+	color: #fff;
+	/*background: #0bceaf;*/
+	box-shadow: 2px 1px 10px 1px rgb(76 124 181 / 60%);
+		border-radius: 50px 50px 0px 50px;
+}
+
+/*------------------------------header part css start---------------*/
+.btn_theme2{
+	padding: 8px 20px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	/*background: #2289ff;*/
+	color: #FD7E14;
+	border: 1px solid #2289ff!important;
+	border-radius: 10px;
+	transition: 0.3s ease-in-out;
+	line-height: 20px;
+}
+.btn_theme2:hover{
+	text-decoration: none;
+	color: #2289ff;
+	border: 1px solid #FD7E14!important;
+	box-shadow: 2px 1px 10px 1px rgb(76 124 181 / 60%);
+}
+.ply_btn{
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 50px;
+	background-color: #202020;
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	/*margin-top: 30px;*/
+}
+.ply_btn:hover{
+	box-shadow: 2px 1px 10px 1px rgb(76 124 181 / 60%);
+	background: #2289ff;
+
+}
+.header_part{
+	width: 100%;
+	height: auto;
+}
+.left_header{
+	padding-top: 120px;
+}
+.left_header p{
+	font-size: 15px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 23px;
+}
+.header_img img{
+	margin: 100px 0 50px 0;
+	border-radius: 50px 50px 0 50px!important;
+	
+}
+		/*---------------------------search section css start---------------*/
+
+.search_section select{
+	border: none!important;
+	outline: none!important;
+	font-size: 16px;
+	letter-spacing: ;
+	padding: 5px 0px;
+	color: ;
+	margin-bottom: 3px;
+	width: 60%;
+}
+.search_section input{
+	border: none;
+	outline: none;
+	height: 28px;
+	padding: 10px 0;
+	transition: 0.3s ease-in-out;
+}
+.search_section input:focus{
+	outline-color: transparent!important;
+	box-shadow: none;
+	border-bottom: 1px solid #0bceaf;
+}
+
+::placeholder{
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.search_section{
+	margin: 110px 0;
+}
+.search_box{
+	box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.3);
+	border-radius: 100px;
+	padding: 20px 30px;
+}
+.search_btn{
+	padding: 8px 20px;
+	background: #2289ff;
+	color: #ffffff;
+	border-radius: 50px;
+}
+
+.search_btn:hover{
+	box-shadow: 2px 1px 10px 1px rgb(76 124 181 / 60%);
+	background: #2289ff;
+	text-decoration: none;
+	color: #ffff;
+}
+
+/*---------------search section css end --------------*/
+
+.about_us{
+	/*margin-bottom: 30px;*/
+	/*height: 100vh;*/
+	/*background: linear-gradient(160deg, #fff 52%, #2080ff 0%);*/
+	background: #f9f9f9;
+	padding: 50px 0 125px 0;
+}
+.about_us h1{
+	font-size: 35px;
+	font-weight: 550;
+}
+.about_image img{
+	border-radius: 50px 0 50px 50px;
+}
+.right_about_div h5{
+	color: #2289ff;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+/*----------------------services section css start------------------*/
+.service{
+	padding: 100px 0;
+}
+.service_profile{
+	text-align: center;
+	/*margin: 10px;*/
+}
+.service_profile h3{
+	font-size: 28px!important;
+	font-weight: 550;
+}
+.service_profile p{
+	font-size: 16px;
+	word-spacing: 2px;
+	line-height: 23px;
+}
+.service_profile i{
+	font-size: 25px;
+	padding: 15px;
+	border-radius: 50px;
+	background: #cccccc;
+}
+.service_profile{
+	padding: 30px 10px;
+	box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.5);
+	border-radius: 0 30px 0 30px;
+	transition: 0.5s ease-in-out;
+}
+.service_profile:hover{
+	border-radius: 30px 0 30px 0px;
+}
+/*-------------------Services Section css end --------------------------*/
+/*--------------------Recent Property section css start-------------------*/
+.property{
+	padding: 50px 0 50px 0;
+	background:#f7f7f7;
+}
+.property h5{
+	color: #2289ff;
+	letter-spacing: 1px;
+	font-weight: 550;
+}
+.property h1{
+	font-size: 33px;
+}
+.property .text-right a{
+	color: #314862;
+	font-size: 16px;
+	font-weight: 550;
+	transition: 1s ease;
+	/*margin-bottom: 50px;*/
+
+}
+.property .text-right a:hover{
+	color: #2289ff;
+	text-decoration: none;
+}
+
+	/*---------------------property slider css -------------------*/
+.property_slider{
+	width: 100%;
+	height: auto;
+	/*border: 1px solid #0bceaf;*/
+	margin: 50px 0!important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.property_list{
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 0px 30px 0 30px;
+	color: #000000;
+	transition: 0.4s ease;
+}
+.property_list:hover{
+	border-radius: 30px 0px 30px 0px!important;
+}
+.property_img img{
+	border-radius: 0px 30px 0 30px;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+.property_list p{
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 550;
+}
+.property_list span{
+	color: #2289ff;
+}
+.property_list i{
+	color: #2289ff;
+	font-size: 18px;
+}
+/*--------------------Recent Property section css start-------------------*/
+
+/*-------------------------------work section css start---------------*/
+.work{
+	margin: 50px 0;
+	background: #ffffff;
+}
+.work h5{
+	font-size: 22px!important;
+	font-weight: 550;
+	color: #2289ff;
+}
+.work_Profile i{
+	font-size: 22px;
+	padding: 15px;
+	background: #cccccc;
+	color: #2289ff;
+	border-radius: 100px;	
+}
+.work_Profile{
+	margin: 10px;
+	transition: 0.5s ease-in-out;
+	padding: 10px;
+}
+.work_Profile:hover{
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
+	border-radius: 0 30px 0 30px;
+}
+
+/*---------------------work section css end --------------*/
+.feature{
+	padding: 50px 0;
+	background: #f7f7f7;
+}
+.feature h5{
+	color: #2289ff;
+}
+.feature h1{
+	font-size: 35px;
+	color: #314862;
+}
+.feature_div .property_list{
+	margin: 5px;
+}
+/*-----------------------feature section end -------------------*/
+.testimoial{
+	margin: 50px 0;
+	background-color: #ffffff;
+}
+.testimonial_img img{
+	width: 350px;
+	height: 300px;
+	border-radius: 100% 100% 0 100%;
+}
+.testimonial_text{
+	margin-left: -100px;
+}
+.testimoial h5{
+	color: #2289ff;
+	font-size: 20px;
+}
+.testimoial h1{
+	font-size: 35px;
+	color: #314862;
+}
+.testimonial_text i{
+	color: #f2f2f2;
+}
+/*----------------------testimonial section end--------------*/
+
+/*------------------------------asking question section start------------------*/
+.ask_question {
+	padding: 80px 0;
+}
+.question_box input{
+	border: none;
+	outline: none;
+	width: 80%;
+}
+.question_box input:focus{
+	outline-color: transparent!important;
+	box-shadow: none;
+
+}
+.question_box input:focus{
+	border-bottom: 1px solid #0bceaf;
+}
+.question_box{
+	padding: 3px 30px;
+	border-radius: 50px;
+}
+.btn_theme{
+	padding: 5px 25px;
+	background: #2289ff;
+	color: #ffffff;
+	border-radius: 50px;
+	margin-bottom: 7px;
+}
+
+/*---------------------------footer section css start-------------------*/
+
+.footer{
+	padding: 50px 0;
+	background: #2289ff;
+	border-radius: 150px 0 0 0;
+}
+.footer_header h3{
+	font-size: 22px;
+}
+.footer_header hr{
+/*	border: 1px solid #fffff;
+*/
+	background-color: #ffffff;
+
+}
+.footer_header ul li{
+	font-size: 16px;
+	list-style: none;
+	margin: 10px 0;
+	transition: 0.3s ease-in-out;
+}
+.footer_header ul li:hover{
+	color: #000000;
+	cursor: pointer;
+}
+.footer_social a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.footer_social a:hover{
+	color: #318422;	
+}
+
+/*-----ALL SECTION CSS END HERE -------------------*/
+
+/*---------------------------MEDIA QUERY START HERE --------------------*/
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}*/
+
+
+
+
+@media only screen and (max-width: 600px){
+
+	.left_header h1{
+		font-size: 30px;
+		margin-top: -50px;
+	}
+	.header_img img{
+		width: 350px;
+		height: 200px;
+	}
+	.search_box{
+		box-shadow:1px 2px 3px 2px rgba(0,0,0,0.3);
+		margin-top: -100px;
+		/*border: 1px solid red;*/
+		border-radius: 10px;
+
+	}
+	.search_box select{
+		margin-top: 50px;
+		margin-right: 50px;
+	}
+	.search_box input{
+		width: 100%;
+		border: 1px solid #318422;
+		padding: 0 10px;
+	}
+	.search_box input:focus{
+		/*border: none;*/
+		border: 1px solid #318422;
+		width: 100%;
+	}
+	.search_btn{
+		width: 100%;
+		padding: 8px 70px;
+		margin-top: 30px;
+	}
+
+	.about_image img{
+		margin-top: -100px;
+	}
+	.about_image img{
+		width: 400px;
+		height: 200px;
+	}
+	.right_about_div h1{
+		font-size: 30px;
+	}
+	.ply_btn {
+		margin-top: 30px;
+	}
+	.service_profile h3{
+		font-size: 20px!important;
+	}
+	.service_profile p{
+		font-size: 14px;
+	}
+
+	.testimonial_text{
+		margin-left: 0px;
+	}
+	.testimonial h1{
+		font-size: 30px;
+	}
+	.question h3{
+		font-size: 20px;
+	}.property_list img{
+		height: 150px;
+	}
+	.property_list h4{
+		font-size: 16px;
+	}
+	.property_list p{
+		font-size: 14px;
+	}
+	.property_list i{
+		font-size: 14px;
+	}
+	.work h1{
+		font-size: 25px;
+	}
+	.work h5, p{
+		font-size: 15px;
+	}
+	.work_Profile h3{
+		font-size: 23px;
+	}
+	.work_Profile p{
+		font-size: 14px;
+	}
+	.property h5{
+		font-stretch: 14px!important;
+	}
+	.property h1{
+		font-size: 25px;
+	}
+	.property_list {
+		width: 100%;
+		height: 100%;
+		/*margin: 10px 0;*/
+	}
+	.feature h1{
+		font-size: 28px;
+	}
+	.right_about_div{
+		margin-left: 0!important;
+		padding-left: 0!important;
+	}
+	.about_us{
+		padding: 20px 0;
+		padding-top: -100px;
+	}
+	.right_about_div .btn_theme2{
+		margin-left: -20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 30px!important;
+	}
+
+	.left_header{
+		margin-top: -30px;
+	}
+	.right_about_div p{
+		font-size: 15px;
+	}
+	.about_us{
+		margin-top: -80px;
+		padding: -50px 0!important;
+	}
+
+	.service_profile h3 ,.work_Profile h3{
+    font-size: 20px!important;
+	}
+	.work_Profile p{
+		font-size: 15px;
+	}
+	.testimonial_text{
+		margin-left: 0;
+	}
+	.question h3{
+		font-weight: 500!important;
+		font-size: 22px;
+	}
+	.footer_header h3{
+	 font-size: 18px!important;	
+	}
+	.footer_header ul li{
+		font-size: 15px;
+	}
+	.property_list {
+		height: 200px!important;
+		width: 320px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+	.left_header{
+		margin-top: -30px;
+	}
+	.property_list {
+		height: 500px;
+		width: 100%;
+	}
+	.testimonial_text {
+		margin-left: 0!important;
+	}
+
+		h1{
+		font-size: 30px!important;
+	}
+	.right_about_div p{
+		font-size: 15px;
+	}
+	/*.about_us{
+		margin-top: -80px;
+		padding: -50px 0!important;
+	}
+*/
+	.service_profile h3 ,.work_Profile h3{
+    font-size: 20px!important;
+	}
+	.work_Profile p{
+		font-size: 15px;
+	}
+	.testimonial_text{
+		margin-left: 0;
+	}
+	.question h3{
+		font-weight: 500!important;
+		font-size: 22px;
+	}
+	.footer_header h3{
+	 font-size: 18px!important;	
+	}
+	.footer_header ul li{
+		font-size: 15px;
+	}
+	.property_list {
+		height: 200px!important;
+		width: 320px;
+	}
+}
+
